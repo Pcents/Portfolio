@@ -37,7 +37,12 @@ export default function FixedBottomNavigation() {
             href={"https://github.com/Pcents"}
             icon={<GitHubIcon />}
           />
-          <BottomNavigationAction target="_blank" icon={<LinkedInIcon />} />
+          <BottomNavigationAction
+            target="_blank"
+            component={"a"}
+            href={"https://www.linkedin.com/in/james-plasencia-aa6843237/"}
+            icon={<LinkedInIcon />}
+          />
           <BottomNavigationAction
             target="_blank"
             component={"a"}

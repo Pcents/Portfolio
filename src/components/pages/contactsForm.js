@@ -91,14 +91,14 @@ function contactsForm() {
             <FormControl>
               <InputLabel htmlFor="component-filled">Name</InputLabel>
               <Input
-                fullWidth="true"
-                id="component-filled"
+                // fullWidth="true"
+                id="my-input"
                 value={userName}
                 onChange={handleInputChange}
                 aria-describedby="my-helper-text"
                 name="names"
                 type="names"
-                placeholder="names"
+                // placeholder="names"
               />
             </FormControl>
           </Grid>
@@ -112,7 +112,7 @@ function contactsForm() {
               <InputLabel htmlFor="component-filled">Message</InputLabel>
               <Input
                 fullWidth="true"
-                id="component-filled"
+                id="my-input"
                 value={message}
                 onChange={handleInputChange}
               />
