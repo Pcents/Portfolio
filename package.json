@@ -37,7 +37,7 @@
   "bugs": {
     "url": "https://github.com/Pcents/Portfolio/issues"
   },
-  "homepage": "https://pcentsportfolio.com",
+  "homepage": "https://pcents.github.io/Portfolio/",
   "browserslist": {
     "production": [
       ">0.2%",
