@@ -1,20 +1,3 @@
-// export default function NavBar() {
-//   return (
-//     <nav className="nav">
-//       <a href="/" className="title">
-//         Portfolio
-//       </a>
-//       <ul>
-//         <li>
-//           <a href="/contact">Contact Me!</a>
-//           <a href="/projects">Catalogue</a>
-//           <a href="/resume">Resume</a>
-//         </li>
-//       </ul>
-//     </nav>
-//   );
-// }
-
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -29,10 +12,9 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
+import Doom from "../components/assets/doom.jfif";
 
 const pages = ["Contact", "Projects", "Resume"];
-// const settings = ["Profile", "Account", "Dashboard", "Logout"];
-// handoff page change in props
 
 const NavBar = ({ handlePageChange }) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -99,7 +81,6 @@ const NavBar = ({ handlePageChange }) => {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {/* {have to pug the pages stuff here?} */}
               {pages.map((page) => (
                 <MenuItem key={page} onClick={() => handleCloseNavMenu(page)}>
                   <Typography textAlign="center">{page}</Typography>
@@ -145,32 +126,10 @@ const NavBar = ({ handlePageChange }) => {
                 <Avatar
                   sx={{ width: 56, height: 56 }}
                   alt="PCents"
-                  src="/public/doom.jpg"
+                  src={Doom}
                 />
               </IconButton>
             </Tooltip>
-            {/* <Menu
-              sx={{ mt: "45px" }}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: "top",
-                horizontal: "right",
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: "top",
-                horizontal: "right",
-              }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
-            > */}
-            {/* {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
-                </MenuItem>
-              ))} */}
-            {/* </Menu> */}
           </Box>
         </Toolbar>
       </Container>

@@ -8,8 +8,13 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
-import teeTime from "../../assets/tee-time.jpg";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import TeeTime from "../assets/tee-time.jpg";
+import Alien from "../assets/alien.jfif";
+import Game from "../assets/Game_Glutton Logo.png";
+import Notes from "../assets/images.png";
+import Weather from "../assets/weather-images.jpg";
+import Text from "../assets/text.png";
 
 function projects() {
   return (
@@ -28,7 +33,7 @@ function projects() {
                 component="img"
                 alt="Tee Time"
                 height="140"
-                image="../../../public/tee-time.jpg"
+                image={TeeTime}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -64,7 +69,7 @@ function projects() {
                 component="img"
                 alt="weather"
                 height="140"
-                image="/static/images/cards/contemplative-reptile.jpg"
+                image={Weather}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -101,7 +106,7 @@ function projects() {
                 component="img"
                 alt="video game catalogue"
                 height="140"
-                image="/static/images/cards/contemplative-reptile.jpg"
+                image={Game}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -142,7 +147,7 @@ function projects() {
                 component="img"
                 alt="alien"
                 height="140"
-                image="/static/images/cards/contemplative-reptile.jpg"
+                image={Alien}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -175,7 +180,7 @@ function projects() {
                 component="img"
                 alt="Note Pad"
                 height="140"
-                image="/static/images/cards/contemplative-reptile.jpg"
+                image={Notes}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -208,7 +213,7 @@ function projects() {
                 component="img"
                 alt="text editing?"
                 height="140"
-                image="/static/images/cards/contemplative-reptile.jpg"
+                image={Text}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
