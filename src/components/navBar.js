@@ -37,8 +37,8 @@ const NavBar = ({ handlePageChange }) => {
             noWrap
             component="a"
             // this home route aint working
-            href={Home}
-            // href="/"
+            // href={Home}
+            href="/"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
