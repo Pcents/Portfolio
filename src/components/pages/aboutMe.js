@@ -37,22 +37,6 @@ function aboutMe() {
             </Typography>
           </Grid>
         </Grid>
-
-        {/* <Grid
-          container
-          direction="column"
-          justifyContent="center"
-          alignItems="center"
-        >
-          <Grid item>
-            <Avatar
-              style={{ whiteSpace: "pre-line" }}
-              alt="Me"
-              sx={{ width: 56, height: 56 }}
-              src="/static/images/avatar/1.jpg"
-            />
-          </Grid>
-        </Grid> */}
       </Stack>
 
       <Grid

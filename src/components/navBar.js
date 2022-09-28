@@ -13,6 +13,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import Doom from "../components/assets/doom.jfif";
+import Home from "./pages/aboutMe";
 
 const pages = ["Contact", "Projects", "Resume"];
 
@@ -31,13 +32,13 @@ const NavBar = ({ handlePageChange }) => {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
-          {/* {tect styling} */}
           <Typography
             variant="h6"
             noWrap
             component="a"
-            href="/"
+            // this home route aint working
+            href={Home}
+            // href="/"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
