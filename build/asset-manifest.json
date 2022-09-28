@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.a22f5599.css",
+    "main.js": "/Portfolio/static/js/main.cc1284ec.js",
+    "static/media/Game_Glutton Logo.png": "/Portfolio/static/media/Game_Glutton Logo.b2976bb833c29dc48bec.png",
+    "static/media/weather-images.jpg": "/Portfolio/static/media/weather-images.e6a48989c5d65d6b1688.jpg",
+    "static/media/tee-time.jpg": "/Portfolio/static/media/tee-time.dad4aaa7be8c59dac113.jpg",
+    "static/media/text.png": "/Portfolio/static/media/text.ede96d6d5a683f365697.png",
+    "static/media/doom.jfif": "/Portfolio/static/media/doom.2cd03a9cece350aac933.jfif",
+    "static/media/alien.jfif": "/Portfolio/static/media/alien.95bc06b814b8041b7f37.jfif",
+    "index.html": "/Portfolio/index.html",
+    "main.a22f5599.css.map": "/Portfolio/static/css/main.a22f5599.css.map",
+    "main.cc1284ec.js.map": "/Portfolio/static/js/main.cc1284ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a22f5599.css",
+    "static/js/main.cc1284ec.js"
+  ]
+}
